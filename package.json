@@ -1,5 +1,5 @@
 {
-  "name": "@aave/deploy-v3",
+  "name": "@ferumlabs/aave-deploy-v3",
   "version": "1.55.3",
   "files": [
     "dist",
@@ -39,10 +39,10 @@
     "chalk": "^4.1.2",
     "dotenv": "^10.0.0",
     "ethers": "^5.4.7",
-    "hardhat": "^2.12.4",
+    "hardhat": "^2.19.4",
     "hardhat-contract-sizer": "^2.0.3",
     "hardhat-dependency-compiler": "^1.1.2",
-    "hardhat-deploy": "^0.10.6",
+    "hardhat-deploy": "^0.11.45",
     "jsondiffpatch": "^0.4.1",
     "prettier": "^2.3.2",
     "ts-node": "^10.2.1",
@@ -71,7 +71,7 @@
   "peerDependencies": {
     "@aave/core-v3": "x || >=1.0.0-beta || >=3.0.0-beta",
     "@aave/periphery-v3": "x || >=1.0.0-beta || >=3.0.0-beta",
-    "hardhat": "^2.6.1"
+    "hardhat": "^2.19.4"
   },
   "publishConfig": {
     "registry": " https://registry.npmjs.org"
