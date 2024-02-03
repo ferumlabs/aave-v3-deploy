@@ -1,6 +1,6 @@
 {
   "name": "@ferum/aave-deploy-v3",
-  "version": "1.55.3",
+  "version": "1.55.4",
   "files": [
     "dist",
     "LICENSE",
@@ -20,7 +20,7 @@
     "Emilio Frangella <emilio@aave.com>"
   ],
   "main": "dist/helpers/index.js",
-  "devDependencies": {
+  "dependencies": {
     "@aave/aave-token": "^1.0.4",
     "@aave/core-v3": "^1.19.0",
     "@aave/periphery-v3": "^2.4.1",
@@ -49,7 +49,8 @@
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.3.0",
-    "typescript": "^4.3.2"
+    "typescript": "^4.3.2",
+    "defender-relay-client": "^1.11.1"
   },
   "license": "AGPLv3",
   "scripts": {
@@ -79,8 +80,5 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/aave/aave-v3-deploy"
-  },
-  "dependencies": {
-    "defender-relay-client": "^1.11.1"
   }
 }
