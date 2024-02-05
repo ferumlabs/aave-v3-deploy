@@ -1,6 +1,6 @@
 {
   "name": "@ferum/aave-deploy-v3",
-  "version": "1.55.6",
+  "version": "1.55.7",
   "files": [
     "dist",
     "LICENSE",
