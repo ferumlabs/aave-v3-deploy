@@ -46,11 +46,11 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
       aclManagerArtifact.abi,
       aclManagerArtifact.address
     )
-  ).connect(aclAdminSigner) as ACLManager;
+  ).connect(aclAdminSigner);
 
   // 3. Setup ACLManager at AddressesProviderInstance
   await waitForTx(
-    await addressesProviderInstance.setACLManager(aclManager.address)
+    await addressesProviderInstance.setACLManager(await aclManager.getAddress())
   );
 
   // 4. Add PoolAdmin to ACLManager contract
